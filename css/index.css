@@ -62,9 +62,9 @@ li {
 }
 
 .single {
-    height: 360px;
+    min-height: 360px;
 }
 
 .double {
-    height: 720px;
+    min-height: 720px;
 }
