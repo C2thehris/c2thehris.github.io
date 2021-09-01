@@ -1,0 +1,70 @@
+body {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bradley Hand', cursive, sans-serif;
+    font-size: 80px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li {
+    font-weight: bold;
+}
+
+.white a:link {
+    color: red;
+}
+
+.white a:visited {
+    color: coral;
+}
+
+.red a:link {
+    color: white;
+}
+
+.red a:visited {
+    color: darkgray;
+}
+
+#rpi_logo {
+    width: 160px;
+    border-radius: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.classes hr {
+    width: 33%;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red {
+    background-color: red;
+    border-bottom: 1px ridge red;
+    color: white;
+}
+
+.white {
+    background-color: lightgray;
+    color: red;
+    border-bottom: 1px ridge lightgray;
+}
+
+.single {
+    height: 360px;
+}
+
+.double {
+    height: 720px;
+}
