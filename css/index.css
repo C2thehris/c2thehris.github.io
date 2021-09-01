@@ -20,7 +20,6 @@ h1 {
 div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 body > div {
@@ -104,7 +103,9 @@ a:visited {
 }
 
 #nav {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: row;
     flex-wrap: wrap;
-    width: fit-content;
 }
