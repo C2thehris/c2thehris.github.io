@@ -7,6 +7,11 @@ window.addEventListener('DOMContentLoaded', () => {
             present(button.dataset.div)
         }
     })
+
+    const title = document.querySelector('title');
+    title.onclick(() => {
+        present('academic')
+    })
 })
 
 function present(div_name) {
@@ -17,6 +22,6 @@ function present(div_name) {
 function clearAll() {
     const divs = document.querySelectorAll('body>div')
     divs.forEach(div => {
-        div.style.display = 'none';
+        div.style.display = 'none'
     })
 }
