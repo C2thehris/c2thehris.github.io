@@ -1,0 +1,8 @@
+{
+  "short_name": "Christos Kreatsoulas",
+  "name": "Christos Kreatsoulas Personal Website",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
