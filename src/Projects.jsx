@@ -1,4 +1,4 @@
-import rayTracingImg from './assets/1200_600.png';
+import rayTracingImg from './assets/1920_1080_2.png';
 import Content from './Content';
 
 const experienceInfo = {
@@ -15,7 +15,7 @@ const experienceInfo = {
 
 const Experience = function () {
   const content = [];
-  content.push(<img src={rayTracingImg} className="ContentImg"/>);
+  content.push(<img src={rayTracingImg} className="ContentImg shadow"/>);
   content.push(<h4>CUDA Ray Tracing In One Weekend</h4>);
   content.push(experienceInfo.paragraphs.map((paragraph, i) => <p key={i}>{paragraph}</p>));
   return <Content category={experienceInfo.category} elements={content} />;

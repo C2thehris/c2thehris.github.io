@@ -2,14 +2,18 @@ html {
   scroll-snap-type: y proximity;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 2px 2px #282c34;
+}
+
 .App {
   text-align: center;
   background-color: #282c34;
+  text-shadow: .025em .025em #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -22,11 +26,15 @@ html {
   height: 100vh;
 }
 
-.App-header>img {
+.shadow {
+  box-shadow: 0px 0px 2vmin black;
+}
+
+.App-header img {
   margin-left: auto;
   margin-right: auto;
   object-fit: contain;
-  border-radius: 24px;
+  width: 10vw;
 }
 
 #occupation {

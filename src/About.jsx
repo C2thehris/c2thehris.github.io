@@ -1,4 +1,4 @@
-import rayTracingImg from './assets/1200_600.png';
+import rayTracingImg from './assets/1920_1080_3.png';
 import Content from './Content';
 
 const aboutInfo = {
@@ -12,7 +12,7 @@ const aboutInfo = {
 };
 
 const About = function () {
-  const rayTracingPhoto = <img src={rayTracingImg} className="ContentImg" key="1200"></img>;
+  const rayTracingPhoto = <img src={rayTracingImg} className="ContentImg shadow" key="1920"></img>;
   const paragraphs = aboutInfo.paragraphs.map((text, i) => <p key={i}>{text}</p>);
   paragraphs.unshift(rayTracingPhoto);
 

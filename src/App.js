@@ -9,12 +9,12 @@ function App () {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Christos Kreatsoulas</h1>
-        <img src={Photo} />
-        <div id="occupation">
+          <h1 key="name">Christos Kreatsoulas</h1>
+          <img src={Photo} className="shadow" key="me"/>
+          <div id="occupation" key="occupation">
           <h4>Computer Science Student</h4>
           <h6>Rensselaer Polytechnic Institute</h6>
-        </div>
+      </div>
       </header>
       <About/>
       <Education/>

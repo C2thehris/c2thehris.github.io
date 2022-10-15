@@ -18,9 +18,11 @@ const Content = function (props) {
   return (
     <div className='Content-Container' ref={ref}>
       <div className='Content'>
-        <h1>{category}</h1>
-        <hr />
-        {elements}
+        <div>
+          <h1>{category}</h1>
+          <hr />
+          {elements}
+        </div>
       </div>
     </div>
   );

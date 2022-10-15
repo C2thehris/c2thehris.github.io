@@ -16,7 +16,7 @@ const educationInfo = {
 
 const Education = function () {
   const content = [];
-  content.push(<img src={rpiLogo} className="ContentImg" id="rpiLogo" />);
+  content.push(<img src={rpiLogo} className="ContentImg shadow" id="rpiLogo" />);
 
   const listElements = educationInfo.listElements.map((text, i) => {
     return <li key={i}>{text}</li>;
