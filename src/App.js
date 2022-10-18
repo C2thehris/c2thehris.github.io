@@ -3,7 +3,7 @@ import Education from './Education';
 import About from './About';
 import Experience from './Experience';
 import Projects from './Projects';
-import Photo from './assets/me.jpg';
+import Photo from './assets/me.JPG';
 
 function App () {
   return (
