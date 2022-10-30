@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cd61d2e.css",
-    "main.js": "/static/js/main.30fb2c16.js",
+    "main.css": "/static/css/main.47b81e80.css",
+    "main.js": "/static/js/main.c7769336.js",
     "static/js/787.3ba5e41c.chunk.js": "/static/js/787.3ba5e41c.chunk.js",
     "static/media/me.JPG": "/static/media/me.349f46c6e685b20f5396.JPG",
     "static/media/1920_1080_2.png": "/static/media/1920_1080_2.ed3e57ff67142a19f95e.png",
@@ -9,12 +9,12 @@
     "static/media/Matlab_Logo.png": "/static/media/Matlab_Logo.5821b44d86984c741c1b.png",
     "static/media/rpi_logo.png": "/static/media/rpi_logo.89c2259e5200132f5b75.png",
     "index.html": "/index.html",
-    "main.5cd61d2e.css.map": "/static/css/main.5cd61d2e.css.map",
-    "main.30fb2c16.js.map": "/static/js/main.30fb2c16.js.map",
+    "main.47b81e80.css.map": "/static/css/main.47b81e80.css.map",
+    "main.c7769336.js.map": "/static/js/main.c7769336.js.map",
     "787.3ba5e41c.chunk.js.map": "/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cd61d2e.css",
-    "static/js/main.30fb2c16.js"
+    "static/css/main.47b81e80.css",
+    "static/js/main.c7769336.js"
   ]
 }
