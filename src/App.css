@@ -1,5 +1,6 @@
 html {
   scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,6 +31,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .shadow {
   box-shadow: 0px 0px 2vmin black;
 }
@@ -43,6 +49,50 @@ h1, h2, h3, h4, h5, h6 {
 
 #occupation {
   display: block;
+}
+
+#menu.opened {
+  transition: all .25s linear;
+  right: 0vw;
+  display: block;
+}
+
+#menu.closed {
+  transition: all .5s linear;
+  animation: remove .5s linear;
+}
+
+@keyframes remove {
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#menu {
+  --menu-width: 15vw;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 1;
+  right: calc(-1 * var(--menu-width));
+  width: var(--menu-width);
+  height: 100vh;
+  background-color: #121a29;
+  padding-top: 7vh;
+}
+
+#menuToggle {
+  position: fixed;
+  z-index: 2;
+  top: 2vmin;
+  right: 2vmin;
+  width: 5vmin;
+  height: 5vmin;
+  background-color: gray;
+  line-height: 5vmin;
 }
 
 .Content-Container {
@@ -87,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0%;
 }
 
-#rpiLogo {
+.rpiLogo {
   border-radius: 15vmin;
 }
 
@@ -98,5 +148,14 @@ h1, h2, h3, h4, h5, h6 {
 
   .fadeOut {
     opacity: 0%;
+  }
+
+  #menu.opened {
+    right: 0vw;
+  }
+
+  #menu.closed {
+    right: -20vw;
+    display: none;
   }
 }
