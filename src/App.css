@@ -72,7 +72,7 @@ a {
 }
 
 #menu {
-  --menu-width: 15vw;
+  --menu-width: 10em;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -81,18 +81,18 @@ a {
   width: var(--menu-width);
   height: 100vh;
   background-color: #121a29;
-  padding-top: 7vh;
+  padding-top: 4em;
 }
 
 #menuToggle {
   position: fixed;
   z-index: 2;
-  top: 2vmin;
-  right: 2vmin;
-  width: 5vmin;
-  height: 5vmin;
-  background-color: gray;
-  line-height: 5vmin;
+  top: 2vmax;
+  right: 2vmax;
+  width: 2em;
+  height: 2em;
+  background-color: black;
+  line-height: 2em;
 }
 
 .Content-Container {
